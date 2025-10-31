@@ -1,0 +1,23 @@
+Benchmarking manacher...
+==================================================
+
+Benchmarking main implementation (run_manacher)...
+
+manacher (main):
+  Mean:   29.539 ms ± 255.794 us
+  Min:    29.152 ms
+  Max:    30.411 ms
+  Runs:   20
+
+Benchmarking alternative implementation (run_alt)...
+
+manacher (alt):
+  Mean:   841.650 ms ± 28.062 ms
+  Min:    789.369 ms
+  Max:    897.809 ms
+  Runs:   20
+
+Comparison:
+  Main is 28.49x faster than alt
+
+==================================================
